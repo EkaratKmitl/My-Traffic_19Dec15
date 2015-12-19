@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="sgs.income.ekarat.mytraffic.MainActivity">
+    tools:context="sgs.income.ekarat.mytraffic.MainActivity"
+    android:background="@drawable/bg18">
 
     <TextView
         android:layout_width="wrap_content"
@@ -17,5 +18,22 @@
         android:layout_alignParentLeft="false"
         android:textIsSelectable="true"
         android:textSize="@dimen/h1"
-        android:text="@string/head" />
+        android:text="@string/head"
+        android:id="@+id/textView"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/textView"
+        android:layout_above="@+id/button"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About  me"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>
