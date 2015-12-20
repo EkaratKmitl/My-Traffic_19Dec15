@@ -7,8 +7,9 @@
     <dimen name="h2">25sp</dimen>
     <dimen name="h3">50sp</dimen>
     <dimen name="h4">25sp</dimen>
-    <dimen name="icon">120sp</dimen>
+    <dimen name="icon">100sp</dimen>
     <dimen name="icon1">120dp</dimen>
+    <dimen name="icon2">250dp</dimen>
 
 
 </resources>
