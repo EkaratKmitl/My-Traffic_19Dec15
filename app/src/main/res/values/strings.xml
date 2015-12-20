@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">My  Traffic</string>
     <string name="head">จราจร</string>
-
+    <string name="head1">ส่วนที่ 1</string>
+    <string name="head2">ส่วนที่ 2</string>
 
 </resources>
